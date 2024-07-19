@@ -11,16 +11,15 @@ dotenv.config();
 const main = async () => {
   console.log('[LOG] Job Started at ' + new Date().toTimeString());
   let status;
-  let prevArticles, latestArticles;
+  let currArticles, prevArticles, latestArticles;
 
   [status, prevArticles] = readArticles('articles.json');
+  [status, currArticles] = await fetchArticles();
 
   if (!status) {
     console.log('[LOG] Job failed to complete.');
     return;
   }
-
-  const currArticles = await fetchArticles();
 
   latestArticles = articlesDifference(currArticles, prevArticles);
 
