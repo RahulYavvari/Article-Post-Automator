@@ -23,8 +23,8 @@ Ensure you have Node.js and npm (Node Package Manager) installed on your system.
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/RahulYavvari/article-automator.git
-   cd article-automator
+   git clone https://github.com/RahulYavvari/Article-Post-Automator
+   cd Article-Post-Automator
    ```
 
 1. **Install Dependencies**
