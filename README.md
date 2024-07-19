@@ -27,13 +27,13 @@ Ensure you have Node.js and npm (Node Package Manager) installed on your system.
    cd Article-Post-Automator
    ```
 
-1. **Install Dependencies**
+2. **Install Dependencies**
 
    ```bash
    npm install
    ```
 
-1. **Configure Environment Variables**
+3. **Configure Environment Variables**
 
    Create a `.env` file (refer to `.env.example` in the source directory) in the root directory and add your environment variables:
 
@@ -48,7 +48,7 @@ Ensure you have Node.js and npm (Node Package Manager) installed on your system.
     CRON_STRING_FREQ_12HR="0 */12 * * *"
 ```
 
-1. **Run the Bot**
+4. **Run the Bot**
 
    ```bash
    npm start
