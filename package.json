@@ -1,0 +1,20 @@
+{
+  "name": "article-automator",
+  "version": "1.0.0",
+  "description": "Automates the social media posts when new articles found on technokrax.com",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node index.mjs"
+  },
+  "keywords": [],
+  "author": "Yavvari Rahul",
+  "license": "ISC",
+  "dependencies": {
+    "@twitter-api-v2/plugin-rate-limit": "^1.1.0",
+    "dotenv": "^16.4.5",
+    "node-cron": "^3.0.3",
+    "node-fetch": "^3.3.2",
+    "puppeteer": "^22.13.0",
+    "twitter-api-v2": "^1.17.2"
+  }
+}
